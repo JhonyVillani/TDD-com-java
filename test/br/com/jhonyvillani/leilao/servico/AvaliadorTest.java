@@ -1,16 +1,15 @@
-package br.com.jhonyvillani.leilao.teste;
+package br.com.jhonyvillani.leilao.servico;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import static org.junit.Assert.assertEquals;
 
 import java.util.List;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import br.com.jhonyvillani.leilao.dominio.Lance;
 import br.com.jhonyvillani.leilao.dominio.Leilao;
 import br.com.jhonyvillani.leilao.dominio.Usuario;
-import br.com.jhonyvillani.leilao.servico.Avaliador;
 
 public class AvaliadorTest {
 
